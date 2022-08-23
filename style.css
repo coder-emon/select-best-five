@@ -78,3 +78,26 @@ body{
 .result-wrap{
     width: 300px;
 }
+.selceted-players{
+    width: 264px;
+    height: 300px;
+    background-color: #0D0D0D;
+    padding: 20px;
+}   
+.selceted-players h3{
+    color: white;
+    text-align: center;
+}
+.selceted-players .img-center{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.selceted-players ol{
+    margin-left: 20px;
+    color: white;
+}
+.selceted-players ol li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
