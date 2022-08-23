@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Choose Your Favourite Five Players</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header-section">
         <div class="header-right">
@@ -14,7 +16,8 @@
         </div>
         <div class="header-content">
             <h1>Choose Favourite Five</h1>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                enim
                 velit
                 mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
@@ -30,53 +33,49 @@
         <section class="player-selection">
             <div class="container">
                 <div id="card-container" class="card-wrap">
-                <div class="card">
-                    <img src="images/Messi.png" alt="">
-                    <h4>Lionel Messi</h4>
-                    <span>36 Goal . 120 Assist</span>
-                    <button class="select-btn">SELECT</button>
-                </div>
-                <div class="card">
-                    <img src="images/Neymar.png" alt="">
-                    <h4>Neymar Jr</h4>
-                    <span>36 Goal . 120 Assist</span>
-                    <button class="select-btn">SELECT</button>
-                </div>
-                <div class="card">
-                    <img src="images/Kylian.png" alt="">
-                    <h4>Kylian Mbappé</h4>
-                    <span>36 Goal . 120 Assist</span>
-                    <button class="select-btn">SELECT</button>
-                </div>
-                <div class="card">
-                    <img src="images/Vitor.png" alt="">
-                    <h4>Vítor Machado</h4>
-                    <span>36 Goal . 120 Assist</span>
-                    <button class="select-btn">SELECT</button>
-                </div>
-                <div class="card">
-                    <img src="images/Sargio.png" alt="">
-                    <h4>Sergio Ramos</h4>
-                    <span>36 Goal . 120 Assist</span>
-                    <button class="select-btn">SELECT</button>
-                </div>
-                <div class="card">
-                    <img src="images/Renato.png" alt="">
-                    <h4>Renato Sanches</h4>
-                    <span>36 Goal . 120 Assist</span>
-                    <button class="select-btn">SELECT</button>
-                </div>
+                    <div class="card">
+                        <img src="images/Messi.png" alt="">
+                        <h4>Lionel Messi</h4>
+                        <span>36 Goal . 120 Assist</span>
+                        <button class="select-btn">SELECT</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/Neymar.png" alt="">
+                        <h4>Neymar Jr</h4>
+                        <span>36 Goal . 120 Assist</span>
+                        <button class="select-btn">SELECT</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/Kylian.png" alt="">
+                        <h4>Kylian Mbappé</h4>
+                        <span>36 Goal . 120 Assist</span>
+                        <button class="select-btn">SELECT</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/Vitor.png" alt="">
+                        <h4>Vítor Machado</h4>
+                        <span>36 Goal . 120 Assist</span>
+                        <button class="select-btn">SELECT</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/Sargio.png" alt="">
+                        <h4>Sergio Ramos</h4>
+                        <span>36 Goal . 120 Assist</span>
+                        <button class="select-btn">SELECT</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/Renato.png" alt="">
+                        <h4>Renato Sanches</h4>
+                        <span>36 Goal . 120 Assist</span>
+                        <button class="select-btn">SELECT</button>
+                    </div>
                 </div>
                 <div class="result-wrap">
                     <div class="selceted-players">
                         <h3>Selected V</h3>
                         <div class="img-center"><img src="images/Ureg-Ureg Marker.png" alt=""></div>
-                        <ol class="selected-players-list">
-                            <li>List item 1</li>
-                            <li>List item 2</li>
-                            <li>List item 3</li>
-                            <li>List item 4</li>
-                            <li>List item 5</li>
+                        <ol id="selected-players-list" >
+
                         </ol>
                     </div>
                     <div class="selceted-players-cost">
@@ -84,18 +83,23 @@
                         <div class="img-center"><img src="images/Ureg-Ureg Marker.png" alt=""></div>
                         <div class="flex-around"><span>Per Player</span> <input id="player-cost" type="text"></div>
                         <button id="player-cost-total">Calculate</button>
-                        <div class="flex-around"><span>Player Expenses</span> <span>$<span id="player-expenses">000</span></span></div>
+                        <div class="flex-around"><span>Player Expenses</span> <span>$<span
+                                    id="player-expenses">000</span></span></div>
                         <div class="flex-around"><span>Manager</span> <input id="player-cost" type="text"></div>
                         <div class="flex-around"><span>Coach</span> <input id="player-cost" type="text"></div>
                         <button id="player-cost-total">Calculate Total</button>
-                        <div class="flex-around"><span>Total</span>  <span>$<span id="total-expenses">000</span></span></div>
+                        <div class="flex-around"><span>Total</span> <span>$<span id="total-expenses">000</span></span>
+                        </div>
 
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer><p>Copyright @ 2022 All Rights Reserved.</p></footer>
+    <footer>
+        <p>Copyright @ 2022 All Rights Reserved.</p>
+    </footer>
     <script src="app.js"></script>
 </body>
+
 </html>
