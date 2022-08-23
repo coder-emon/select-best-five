@@ -35,3 +35,46 @@ body{
 .img-flex{
     display: flex;
 }
+.player-selection{
+    background-color: #151515;
+    padding: 40px 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.card-wrap{
+ width: 900px;
+ display: grid;
+ grid-template-columns: 264px 264px 264px;
+ gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0D0D;
+    /* width: 264px; */
+    gap: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #434343;
+}
+.card h4{
+    color: white;
+    font-size: 20px;
+}
+.card span{
+    color: white;
+
+}
+.select-btn{
+    padding: 8px 30px;
+    background-color: #015196;
+    color: white;
+    border: none;
+}
+.result-wrap{
+    width: 300px;
+}
